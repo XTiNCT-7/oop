@@ -15,25 +15,25 @@ namespace Object_Oriented_Programming
             BasicObjectCreation.Invoke();
             PrintDashedLine();
 
-            Encapsulation.Invoke();
+            // Encapsulation.Invoke();
             PrintDashedLine();
 
-            Abstraction.Invoke();
+            // Abstraction.Invoke();
             PrintDashedLine();
 
-            Encap_Abstract.Invoke();
+            // Encap_Abstract.Invoke();
             PrintDashedLine();
 
-            Polymorphism.Invoke();
+            // Polymorphism.Invoke();
             PrintDashedLine();
 
-            Encap_Abstract_Poly.Invoke();
+            // Encap_Abstract_Poly.Invoke();
             PrintDashedLine();
 
-            Inheritance.Invoke();
+            // Inheritance.Invoke();
             PrintDashedLine();
 
-            Encap_Abstract_Poly_Inherit.Invoke();
+            // Encap_Abstract_Poly_Inherit.Invoke();
 
             // Footer message
             PrintFooter("End of OOP Demo");
