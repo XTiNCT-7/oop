@@ -427,6 +427,6 @@ Remember: Good encapsulation means:
 
 ## Next Steps
 
-Now that you understand encapsulation, you're ready to move on to [Inheritance](./inheritance.md), where you'll learn how to create relationships between classes!
+Now that you understand encapsulation, you're ready to move on to [Abstraction](./abstraction.md), where you'll learn how to design and structure your code at a higher level. Abstraction will teach you how to focus on what's essential while hiding complex implementation details!
 
 Remember: Encapsulation is like putting your code in a protective bubble - it keeps the important stuff safe and controls how the outside world interacts with it. Practice creating classes with proper encapsulation, and you'll write more robust and maintainable code!
