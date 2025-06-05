@@ -9,7 +9,7 @@ This project is a comprehensive resource for learning and practicing Object-Orie
 ## Supported Languages
 - **C#** (current):
   - Step-by-step documentation, code walkthroughs, and practice exercises.
-  - See the [`C#`](./C#) folder for all C#-related docs and code.
+  - See the [`C#`](./C%23) folder for all C#-related docs and code.
 - **Other Languages:**
   - Support for additional languages (such as Java, Python, JavaScript, etc.) is planned for the future.
   - Each language will have its own top-level folder (e.g., `Java/`, `Python/`).
