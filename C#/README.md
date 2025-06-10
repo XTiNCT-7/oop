@@ -8,8 +8,8 @@ This project demonstrates OOP concepts through practical examples, making it eas
 
 ## Getting Started
 
-1. [Prerequisites](getting-started/project-structure.md)
-2. [Setup Guide](getting-started/setup.md)
+1. [Prerequisites](./docs/getting-started/project-structure.md)
+2. [Setup Guide](./docs/getting-started/setup.md)
 
 ## Core Concepts
 

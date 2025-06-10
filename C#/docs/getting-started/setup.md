@@ -99,5 +99,5 @@ If you encounter issues:
 ## Next Steps
 
 1. Review the [Project Structure](project-structure.md)
-2. Start with [Basic Objects](../concepts/objects-and-classes.md)
+2. Start with [Basic Objects](./basic-object-creation.md)
 3. Follow the examples in order of complexity 
