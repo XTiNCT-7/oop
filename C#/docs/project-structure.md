@@ -67,6 +67,18 @@ C#/Object-Oriented-Programming/
 
 **Next: [Abstraction](./abstraction.md)**
 
+### Polymorphism
+- Location: `Polymorphism/`
+- Purpose: Demonstrates polymorphic behavior
+- Files:
+  - `Polymorphism.cs`: Contains the execution code for basic polymorphism examples
+  - `PolymorphismImpl.cs`: Contains the implementation of basic polymorphism examples
+  - `Encap&Abstract&Poly.cs`: Contains the execution code for combined concepts
+  - `Encap&Abstract&PolyImpl.cs`: Contains the implementation of combined examples
+
+**Next: [Polymorphism](./polymorphism.md)**
+
+
 ### Inheritance
 - Location: `Inheritance/`
 - Purpose: Shows inheritance relationships
@@ -78,17 +90,6 @@ C#/Object-Oriented-Programming/
   - `Interface/`: Contains interface definitions used in inheritance examples
 
 **Next: [Inheritance](./inheritance.md)**
-
-### Polymorphism
-- Location: `Polymorphism/`
-- Purpose: Demonstrates polymorphic behavior
-- Files:
-  - `Polymorphism.cs`: Contains the execution code for basic polymorphism examples
-  - `PolymorphismImpl.cs`: Contains the implementation of basic polymorphism examples
-  - `Encap&Abstract&Poly.cs`: Contains the execution code for combined concepts
-  - `Encap&Abstract&PolyImpl.cs`: Contains the implementation of combined examples
-
-**Next: [Polymorphism](./polymorphism.md)**
 
 ## Implementation Pattern
 
@@ -106,8 +107,8 @@ The project is designed for progressive learning:
 1. Start with [Basic Object Creation](./basic-object-creation.md)
 2. Move to [Encapsulation](./encapsulation.md)
 3. Learn [Abstraction](./abstraction.md)
-4. Understand [Inheritance](./inheritance.md)
-5. Master [Polymorphism](./polymorphism.md)
+4. Master [Polymorphism](./polymorphism.md)
+5. Understand [Inheritance](./inheritance.md)
 
 Each concept builds upon previous ones, with combined examples showing how concepts work together.
 
