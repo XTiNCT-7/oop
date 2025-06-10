@@ -8,16 +8,16 @@ This project demonstrates OOP concepts through practical examples, making it eas
 
 ## Getting Started
 
-1. [Prerequisites](./docs/getting-started/project-structure.md)
-2. [Setup Guide](./docs/getting-started/setup.md)
+1. [Prerequisites](./docs/project-structure.md)
+2. [Setup Guide](./docs/setup.md)
 
 ## Core Concepts
 
-1. [Objects and Classes](concepts/objects-and-classes.md)
-2. [Encapsulation](concepts/encapsulation.md)
-3. [Abstraction](concepts/abstraction.md)
-4. [Inheritance](concepts/inheritance.md)
-5. [Polymorphism](concepts/polymorphism.md)
+1. [Objects and Classes](./docs/objects-and-classes.md)
+2. [Encapsulation](./docs/encapsulation.md)
+3. [Abstraction](./docs/abstraction.md)
+4. [Polymorphism](./docs/polymorphism.md)
+5. [Inheritance](./docs/inheritance.md)
 
 ## Contributing
 
