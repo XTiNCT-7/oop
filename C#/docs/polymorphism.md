@@ -418,6 +418,14 @@ foreach (var req in requests)
 ```
 
 
+## Encapsulation, Abstraction & Polymorphism Combined Implementation
+
+See [Encapsulation, Abstraction & Polymorphism Combined: Code Walkthrough](./encap-abstract-poly-walkthrough.md) for a detailed guide to the implementation and usage in the codebase.
+
+This walkthrough demonstrates how all three OOP pillars work together in real-world scenarios, helping you design robust, flexible, and maintainable systems. You'll see how encapsulation protects data, abstraction defines contracts, and polymorphism enables flexible behavior—all in one place!
+
+---
+
 ## Let's Practice!
 
 Ready to get hands-on with polymorphism? Try these exercises to reinforce your understanding:
