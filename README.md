@@ -27,11 +27,27 @@ We welcome contributions in any language!
 - See the [CONTRIBUTING guidelines](CONTRIBUTING.md) for more details.
 
 ## Roadmap
-- [x] C# OOP documentation and code
+- [✅] C# OOP documentation and code
 - [ ] Add support for Java
 - [ ] Add support for Python
 - [ ] Add support for JavaScript/TypeScript
 - [ ] Community contributions for other languages
+
+## Code of Conduct
+
+We are committed to fostering a welcoming and inclusive community. Our Code of Conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
+
+We expect everyone participating in this project to:
+- Be friendly and patient
+- Be welcoming and inclusive
+- Be respectful of different viewpoints
+- Gracefully accept constructive criticism
+
+Read the full [Code of Conduct](CODE_OF_CONDUCT.md) to understand:
+- What constitutes acceptable behavior
+- What constitutes unacceptable behavior
+- How to report violations
+- How the code will be enforced
 
 ## License
 This project is open source and available under the [MIT License](./LICENSE).

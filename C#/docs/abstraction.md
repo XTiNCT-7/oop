@@ -291,6 +291,11 @@ Here:
 Once you're comfortable with basic abstraction, here are some more complex examples that combine encapsulation and abstraction, just like in the encapsulation section:
 
 ### Example 1: User Authentication (with Abstraction)
+
+<details>
+<summary>Click to view the full C# code</summary>
+<br/>
+
 ```csharp
 // Abstract base class for a user
 public abstract class UserBase
@@ -358,8 +363,14 @@ public class RegularUser : UserBase
     }
 }
 ```
+</details>
 
 ### Example 2: API Request Handler (with Abstraction)
+
+<details>
+<summary>Click to view the full C# code</summary>
+<br/>
+
 ```csharp
 // Abstract base class for API requests
 public abstract class ApiRequestBase
@@ -435,13 +446,11 @@ public class JsonApiRequest : ApiRequestBase
 - Abstract base classes define what must be implemented, while concrete classes provide the details.
 - This pattern makes it easy to extend functionality and enforce contracts in your code.
 
----
+</details>
 
 ## Abstraction & Encapsulation combined Implementation
 
 See [Encapsulation & Abstraction Combined: Code Walkthrough](./encap-abstract-walkthrough.md) for a detailed guide to the implementation and usage in the codebase.
-
----
 
 ## Let's Practice!
 

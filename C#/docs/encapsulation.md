@@ -215,6 +215,10 @@ Encapsulation helps us in many ways:
 Once you're comfortable with basic encapsulation, here are some more complex examples showing different ways to protect and manage data:
 
 ### Example 1: User Authentication
+<details>
+<summary>Click to view the full C# code</summary>
+<br/>
+
 ```csharp
 public class User
 {
@@ -282,8 +286,13 @@ public class User
     }
 }
 ```
+</details>
 
 ### Example 2: API Request Handler
+<details>
+<summary>Click to view the full C# code</summary>
+<br/>
+
 ```csharp
 public class ApiRequest
 {
@@ -357,6 +366,8 @@ public class ApiRequest
     }
 }
 ```
+</details>
+<br/>
 
 These examples demonstrate important encapsulation concepts:
 - Private fields with public properties

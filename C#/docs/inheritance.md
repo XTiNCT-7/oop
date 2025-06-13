@@ -51,13 +51,36 @@ Without inheritance, you'd have to duplicate code in every class that needs simi
    ```
 
 3. **Hierarchical Inheritance**
-   - Multiple classes inherit from the same base class
+   - When a base class is inherited by multiple derived classes, forming a hierarchy
+   - Creates a tree-like structure where multiple specialized classes share common functionality
    - Example from our codebase:
    ```csharp
-   class PermanentEmployee : Employee    // Inherits from Employee
-   class ContractEmployee : Employee     // Also inherits from Employee
-   ```
+   // Base class with common employee functionality
+   abstract class Employee
+   {
+       public void Display() { ... }
+       public abstract void CalculatePay();
+   }
 
+   // First branch: PermanentEmployee with leave management
+   class PermanentEmployee : Employee
+   {
+       public int PaidLeaveCount { get; set; }
+       public override void CalculatePay() { ... }
+   }
+
+   // Second branch: ContractEmployee with hourly calculations
+   class ContractEmployee : Employee
+   {
+       public double HourlyRate { get; set; }
+       public override void CalculatePay() { ... }
+   }
+   ```
+   This creates a clear hierarchy where:
+   - `Employee` defines common behavior
+   - `PermanentEmployee` specializes in leave management and fixed salary
+   - `ContractEmployee` specializes in hourly-based payments
+   
 4. **Multiple Inheritance through Interfaces**
    - C# doesn't support multiple inheritance of classes (to avoid the "diamond problem")
    - However, a class can implement multiple interfaces
@@ -323,6 +346,10 @@ This example demonstrates multiple types of inheritance in a user authentication
 - Interface inheritance (implementing ILoggable, IAuditable)
 - Hierarchical inheritance (multiple user types from same base)
 
+<details>
+<summary>Click to view the full C# code</summary>
+<br/>
+
 ```csharp
 // Interfaces showing interface inheritance
 public interface ILoggable
@@ -514,6 +541,7 @@ foreach (var user in users)
     Console.WriteLine($"{user.GetType().Name} authenticated: {isAuthenticated}");
 }
 ```
+</details>
 
 ### Example 2: API Request Handler
 This example demonstrates multiple types of inheritance in API request handling:
@@ -521,6 +549,10 @@ This example demonstrates multiple types of inheritance in API request handling:
 - Multi-level inheritance (AuthenticatedRequest extending base request)
 - Interface inheritance (IRequestValidator hierarchy)
 - Hierarchical inheritance (different request types sharing common base)
+
+<details>
+<summary>Click to view the full C# code</summary>
+<br/>
 
 ```csharp
 // Interface hierarchy for request validation
@@ -674,6 +706,17 @@ foreach (var req in requests)
 }
 ```
 
+</details>
+
+## Inheritance, Abstraction & Polymorphism Combined Implementation
+
+See [Encapsulation, Abstraction & Polymorphism Combined: Code Walkthrough](./encap-abstract-poly-walkthrough.md) for a detailed guide that shows how inheritance works together with other OOP concepts. 
+
+This walkthrough demonstrates:
+- How inheritance forms the foundation for polymorphism
+- How abstract classes combine inheritance and abstraction
+- How these concepts work together in real-world scenarios
+
 ## Let's Practice!
 
 Try these exercises to reinforce your understanding:
@@ -702,15 +745,6 @@ Try these exercises to reinforce your understanding:
    - Implement a complete HR system
    - Use inheritance for different employee types
    - Add payroll and leave management features
-
-## Inheritance, Abstraction & Polymorphism Combined Implementation
-
-See [Encapsulation, Abstraction & Polymorphism Combined: Code Walkthrough](./encap-abstract-poly-walkthrough.md) for a detailed guide that shows how inheritance works together with other OOP concepts. 
-
-This walkthrough demonstrates:
-- How inheritance forms the foundation for polymorphism
-- How abstract classes combine inheritance and abstraction
-- How these concepts work together in real-world scenarios
 
 ## Congratulations and Next Steps!
 
