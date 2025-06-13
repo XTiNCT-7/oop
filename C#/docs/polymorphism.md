@@ -227,6 +227,10 @@ Let's see how polymorphism works in more realistic scenarios, building on what y
 ### Example 1: Polymorphic User Authentication
 Suppose you have different types of users in your system (e.g., regular users, admins). Each user type might have a different way to authenticate. You can use an abstract base class and override the authentication method in each derived class. This demonstrates runtime polymorphism, as the correct `Authenticate` method is called based on the actual user type.
 
+<details>
+<summary>Click to view the full C# code</summary>
+<br/>
+
 ```csharp
 public abstract class UserBase
 {
@@ -319,14 +323,19 @@ foreach (var user in users)
     Console.WriteLine($"{user.GetType().Name} authenticated: {isAuthenticated}");
 }
 ```
-
 **Key Points:**
 - Private fields and validation (encapsulation)
 - Abstract and overridden methods (polymorphism)
 - Treating all users as `UserBase` but getting different authentication logic at runtime
+</details>
+
 
 ### Example 2: Polymorphic API Request Handler
 Suppose you have different types of API requests (e.g., JSON, XML). You want to treat them all as `ApiRequest` objects, but each type sends the request differently. This is a classic use of polymorphism!
+
+<details>
+<summary>Click to view the full C# code</summary>
+<br/>
 
 ```csharp
 abstract class ApiRequest
@@ -416,15 +425,13 @@ foreach (var req in requests)
     await req.SendRequest(); // Calls the correct overridden method
 }
 ```
-
+</details>
 
 ## Encapsulation, Abstraction & Polymorphism Combined Implementation
 
 See [Encapsulation, Abstraction & Polymorphism Combined: Code Walkthrough](./encap-abstract-poly-walkthrough.md) for a detailed guide to the implementation and usage in the codebase.
 
 This walkthrough demonstrates how all three OOP pillars work together in real-world scenarios, helping you design robust, flexible, and maintainable systems. You'll see how encapsulation protects data, abstraction defines contracts, and polymorphism enables flexible behavior—all in one place!
-
----
 
 ## Let's Practice!
 
