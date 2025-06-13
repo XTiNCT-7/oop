@@ -27,7 +27,7 @@ We welcome contributions in any language!
 - See the [CONTRIBUTING guidelines](CONTRIBUTING.md) for more details.
 
 ## Roadmap
-- [✅] C# OOP documentation and code
+- [x] C# OOP documentation and code
 - [ ] Add support for Java
 - [ ] Add support for Python
 - [ ] Add support for JavaScript/TypeScript
