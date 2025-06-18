@@ -16,22 +16,22 @@ namespace Object_Oriented_Programming
             PrintDashedLine();
 
             // Encapsulation.Invoke();
-            PrintDashedLine();
+            //PrintDashedLine();
 
             // Abstraction.Invoke();
-            PrintDashedLine();
+            //PrintDashedLine();
 
             // Encap_Abstract.Invoke();
-            PrintDashedLine();
+            //PrintDashedLine();
 
             // Polymorphism.Invoke();
-            PrintDashedLine();
+            //PrintDashedLine();
 
             // Encap_Abstract_Poly.Invoke();
-            PrintDashedLine();
+            //PrintDashedLine();
 
             // Inheritance.Invoke();
-            PrintDashedLine();
+            //PrintDashedLine();
 
             // Encap_Abstract_Poly_Inherit.Invoke();
 
