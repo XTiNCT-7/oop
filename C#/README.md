@@ -21,8 +21,8 @@ This project focuses on OOP concepts and patterns rather than basic C# syntax. I
 
 ## Getting Started
 
-1. [Prerequisites](./docs/project-structure.md)
-2. [Setup Guide](./docs/setup.md)
+1. [Setup Guide](./docs/setup.md)
+2. [Project Structure](./docs/project-structure.md)
 
 ## Core Concepts
 
